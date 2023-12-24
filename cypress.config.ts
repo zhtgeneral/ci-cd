@@ -11,6 +11,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: `${process.env.CYPRESS_BASE_URL? process.env.CYPRESS_BASE_URL: 'http://localhost:3000'}`
+    baseUrl: 'http://localhost:3000'
   },
 });

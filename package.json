@@ -11,11 +11,14 @@
     "cy:run": "cypress run"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^12.10.0",
+    "@aws-amplify/ui-react": "^6.0.7",
     "@googlemaps/js-api-loader": "^1.16.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@testing-library/react": "^14.1.2",
     "@types/google-maps": "^3.2.6",
     "@types/google.maps": "^3.54.10",
+    "aws-amplify": "^6.0.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cypress": "^13.6.1",
